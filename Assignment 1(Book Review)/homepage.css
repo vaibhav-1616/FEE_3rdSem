@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    margin: auto;
+}
+
+.wholepage{
+        background-image: url("bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      
+}
+
+.navbar{
+    /* background-color: red; */
+    height: 10vw;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5vw;
+    }
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+    position: relative;
+    font-size: 25px;
+    }
+
+ul li a{
+        color: rgb(0, 0, 0);
+        /* transition: 0.5s; */
+        text-decoration: none;
+        }
+
+/* ul li a:hover{
+            color: rgb(255, 0, 230);
+            } */
+
+ ul li a::after{
+                content: " ";
+                width: 0;
+                height: 3px;
+                background: deeppink;
+                position: absolute;
+                left: 0;
+                bottom: -5px;
+                transition: 0.75s;
+              }
+              
+ ul li a:hover::after{
+                width: 100%;
+              }
+
+
+#search{
+    height: 2vw;
+}
+
+.navbar h1{
+    margin-left: 5vw;
+    margin-top: -1vw;
+    
+}
+.navbar h1:hover{
+    color: rgb(0, 255, 4);
+    /* text-decoration: underline; */
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* .navbar h1:hover::after{
+    
+    
+} */
+
+
+.content{
+    /* background-color: blue; */
+    height: 10vw;
+    width: 65vw;
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+}
+
+.left{
+    font-size: 18px;
+    font-weight: bold;
+    /* display: flexbox; */
+    width: 29vw;
+    align-items: center;
+    line-height: 25px;
+    color: rgb(77, 4, 29);
+    font-size: 20px;
+}
+.right{
+    margin-right: -5vw;
+    font-size: 18px;
+    font-weight: bold;
+    /* display: flex; */
+    width: 20vw;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.right img{
+        width: 20vw;
+        height: 45vh;
+        border-radius: 10px;
+}
+
+.footer{
+    /* background-color: green; */
+    height: 1vw;
+    width: 75vw;
+    padding-top: 15px;
+    margin-top: 55vh;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: larger;
+    background-color: black;
+    color: white;
+
+}
+
+
