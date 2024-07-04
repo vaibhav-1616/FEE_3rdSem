@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <center>
+        <form action="">
+            <h1>Input fields</h1>
+            <p>
+            Name : <input type="text">
+            </p>
+            <p>Password: <input type="password" name="" id=""></p>
+            <p>Numbers: <input type="number" name="" id=""></p>
+            <p>Color: <input type="color" name="" id=""></p>
+            <p>Email: <input type="email" name="" id=""></p>
+            <p>Date: <input type="date" name="" id=""></p>
+            <p>Time: <input type="time" name="" id=""></p>
+            <p>Range<input type="range" min="0" max="100" step="10" value="0"></p>
+            <!-- Value - 0(Pre-defined): starts from 0 and not default 50.
+            step - kitne se badhegi range. -->
+
+            <hr>
+
+            <h1>Labels and placeholders</h1>
+
+        <label for="password">Password: </label> 
+        <input type="password" name="" id="password" placeholder="Enter your password">
+            <br> <br>
+
+        <label for="name">Name:</label> 
+        <input type="text" id="name" placeholder="Name">
+            <br> <br>
+        
+        <label for="male">Male:</label> <input type="radio" id="male" name="gender"> <!--  name should be same but id different -->
+        <label for="female">Female:</label> <input type="radio" id="female" name="gender">
+        <br> <br>
+
+        <label for="terms">Agree to terms and conditions</label><input type="checkbox" name="terms" id="terms">
+        <br> <br>
+
+        <h1>
+            Cars
+        </h1>
+        <select name="cars" id="">
+            <option value="cars">RR</option>
+            <option value="">Pagani</option>
+            <option value="">Rimac</option>
+        </select> <br> <br>
+
+        <button type="submit">Submit</button>
+        <br> <br>
+        <button type="reset">Reset</button>
+
+        
+
+        </form>
+    </center>
+
+    
+    
+</body>
+</html>
