@@ -25,6 +25,7 @@
     justify-content: space-between;
     align-items: center;
     padding-right: 5vw;
+    margin-top: -2vw;
     }
 
 .navbar ul li{
@@ -33,6 +34,7 @@
     margin: 25px;
     position: relative;
     font-size: 25px;
+    /* margin-top: -50vw; */
     }
 
 ul li a{
@@ -66,8 +68,8 @@ ul li a{
 }
 
 .navbar h1{
-    margin-left: 5vw;
-    margin-top: -1vw;
+    margin-left: 3vw;
+    /* margin-top: -5vw; */
     
 }
 .navbar h1:hover{
@@ -99,8 +101,10 @@ ul li a{
     width: 29vw;
     align-items: center;
     line-height: 25px;
-    color: rgb(77, 4, 29);
+    color: rgb(9, 157, 9);
     font-size: 20px;
+    margin-left: 6vw;
+    margin-top: 1vw;
 }
 .right{
     margin-right: -5vw;
@@ -112,9 +116,10 @@ ul li a{
     align-items: center;
 }
 .right img{
-        width: 20vw;
-        height: 45vh;
+        width: 21vw;
+        height: 50vh;
         border-radius: 10px;
+        margin-left: 3.5vw;
 }
 
 .footer{
