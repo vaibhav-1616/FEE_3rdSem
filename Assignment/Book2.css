@@ -8,11 +8,8 @@
 }
 
 .wholepage{
-        background-image: url("bg.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        z-index: -1;
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover; /* Cover the entire page */
       
 }
 

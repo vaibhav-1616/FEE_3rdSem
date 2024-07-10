@@ -13,12 +13,8 @@
   } */
 
 .wholepage{
-        background-image: url("bg1.webp");
-        background-size: cover;
-        height: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        /* z-index: -1; */
+    background: url("bg1.webp") no-repeat center center fixed;
+    background-size: cover; /* Cover the entire page */
       
 }
 
