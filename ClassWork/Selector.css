@@ -1,0 +1,34 @@
+/* Descendent combination selectors:*/
+
+ul li a{            /* */
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: blue;
+    font-size: x-large;
+}
+
+/* Child combinator selector - Immediate offspring :) */
+
+ol > li{
+    background-color: rgb(221, 128, 195);
+}
+
+/* Adjacent -> flow downwards. jo iske niche hoga usi pe lagegi styling upar wlae adjacent pe nhi. */
+
+h3+p{
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+
+/* Siblings -> There is a downflow of these selectors */
+
+div~p{                                                  /* All the siblings (p) of the div tag will be affected... */
+    border: 2px solid red;
+    width: 800px;
+}
+
